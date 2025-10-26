@@ -1,5 +1,5 @@
-[[redirects]]
-  from = "/*"
-  to = "https://www.yahoo.co.jp/"
-  status = 302
-  force = true
+# [[redirects]]
+#   from = "/*"
+#   to = "https://www.yahoo.co.jp/"
+#   status = 302
+#   force = true
