@@ -1,5 +1,11 @@
-# [[redirects]]
-#   from = "/*"
-#   to = "https://www.yahoo.co.jp/"
-#   status = 302
-#   force = true
+# 除外したい特定のパス（そのまま通常どおり配信）
+[[redirects]]
+  from = "/no-redirect"
+  to = "/no-redirect"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "https://www.yahoo.co.jp/"
+  status = 302
+  force = true
