@@ -6,6 +6,6 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://www.yahoo.co.jp/"
-  status = 302
+  to = "https://github.com/ksk1015/astro-platform-starter"
+  status = 301
   force = true

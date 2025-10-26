@@ -1,3 +1,20 @@
+# Netlify のリダイレクトデモ
+
+```
+# リダイレクトを除外したいパス
+[[redirects]]
+  from = "/no-redirect"
+  to = "/no-redirect"
+  status = 200
+
+# それ以外はすべてリダイレクト
+[[redirects]]
+  from = "/*"
+  to = "https://github.com/ksk1015/astro-platform-starter"
+  status = 301
+  force = true
+```
+
 # Astro on Netlify Platform Starter
 
 [Live Demo](https://astro-platform-starter.netlify.app/)
